@@ -1,1 +1,9 @@
-mpx profile config
+# MPX profile
+
+`profiles/mpx` is the promoted, live mpv profile.  It must remain usable while
+development proceeds.
+
+The development extension lives separately at
+`/dat/ud/dva/mpvx/mpv-asurf`.  That repository is loaded directly only by its
+development launcher; promotion into this profile is a separate, reviewed
+operation.
